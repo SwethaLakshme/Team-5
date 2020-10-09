@@ -2,6 +2,7 @@ import 'package:prescription_app/components/schedule_card.dart';
 import 'package:prescription_app/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:prescription_app/screens/Voice/voice_screen.dart';
 
 class DetailScreen5 extends StatelessWidget {
   var _name;
@@ -217,7 +218,7 @@ class DetailScreen5 extends StatelessWidget {
                         'Regular Checkup',
                         'Monday . 9am - 10am',
                         '7',
-                        'September',
+                        'Sept',
                         kYellowColor,
                       ),
                       SizedBox(
@@ -227,12 +228,27 @@ class DetailScreen5 extends StatelessWidget {
                         'Regular Checkup',
                         'Wednesday . 10am - 11am',
                         '5',
-                        'August',
+                        'Aug',
                         kOrangeColor,
                       ),
                       SizedBox(
                         height: 20,
                       ),
+                      RaisedButton(
+                      shape: StadiumBorder(),
+                      color: Colors.purpleAccent,
+                      onPressed: () {
+                        Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return VoiceScreen();
+                    },
+                  ),
+                );
+                      },
+                      child: Text("Start Consultation"),
+                    )
                     ],
                   ),
                 ),
