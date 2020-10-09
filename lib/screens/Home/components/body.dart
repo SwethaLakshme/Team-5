@@ -2,6 +2,9 @@ import 'package:prescription_app/components/category_card.dart';
 import 'package:prescription_app/components/patientlist/patient_list1.dart';
 import 'package:prescription_app/components/patientlist/patient_list2.dart';
 import 'package:prescription_app/components/patientlist/patient_list3.dart';
+import 'package:prescription_app/components/patientlist/patient_list4.dart';
+import 'package:prescription_app/components/patientlist/patient_list5.dart';
+import 'package:prescription_app/components/patientlist/patient_list 6.dart';
 import 'package:prescription_app/components/search_bar.dart';
 import 'package:prescription_app/constant.dart';
 import 'package:flutter/material.dart';
@@ -51,7 +54,6 @@ class Body extends StatelessWidget {
               ),
               SizedBox(
                 height: 30,
-      
               ),
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 30),
@@ -182,7 +184,7 @@ class Body extends StatelessWidget {
     );
   }
 
-buildPatientList3() {
+  buildPatientList3() {
     return Padding(
       padding: EdgeInsets.symmetric(
         horizontal: 30,
@@ -203,9 +205,66 @@ buildPatientList3() {
     );
   }
 
+  buildPatientList4() {
+    return Padding(
+      padding: EdgeInsets.symmetric(
+        horizontal: 30,
+      ),
+      child: Column(
+        children: <Widget>[
+          PatientCard4(
+            'Ayesha.G',
+            'Female',
+            'assets/images/doctor3.png',
+            kOrangeColor,
+          ),
+          SizedBox(
+            height: 20,
+          ),
+        ],
+      ),
+    );
+  }
 
+  buildPatientList5() {
+    return Padding(
+      padding: EdgeInsets.symmetric(
+        horizontal: 30,
+      ),
+      child: Column(
+        children: <Widget>[
+          PatientCard5(
+            'Kamatchi.V',
+            'Female',
+            'assets/images/doctor3.png',
+            kOrangeColor,
+          ),
+          SizedBox(
+            height: 20,
+          ),
+        ],
+      ),
+    );
+  }
 
-  
+  buildPatientList6() {
+    return Padding(
+      padding: EdgeInsets.symmetric(
+        horizontal: 30,
+      ),
+      child: Column(
+        children: <Widget>[
+          PatientCard6(
+            'Manasa .S',
+            'Female',
+            'assets/images/doctor3.png',
+            kOrangeColor,
+          ),
+          SizedBox(
+            height: 20,
+          ),
+        ],
+      ),
+    );
+  }
 }
-
-
