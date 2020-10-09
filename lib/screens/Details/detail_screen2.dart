@@ -143,11 +143,13 @@ class DetailScreen2 extends StatelessWidget {
                           )
                         ],
                       ),
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
                       SizedBox(
                         height: 50,
                       ),
                       Text(
-                        'About Doctor',
+                        'Patient Details ',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 18,
@@ -158,7 +160,7 @@ class DetailScreen2 extends StatelessWidget {
                         height: 10,
                       ),
                       Text(
-                        'Dr. Stella is the top most heart surgeon in Flower\nHospital. She has done over 100 successful sugeries\nwithin past 3 years. She has achieved several\nawards for her wonderful contribution in her own\nfield. She’s available for private consultation for\ngiven schedules.',
+                        'Age: 70 \n Blood Group: A+ve \n Height/Weight: 180cm/72kg \n Blood Pressure(BP): 120mmHg \n Pulse rate: 78beats/min \n Diagonised with: Diabetes Millitus',
                         style: TextStyle(
                           height: 1.6,
                           color: kTitleTextColor.withOpacity(0.7),
@@ -167,8 +169,31 @@ class DetailScreen2 extends StatelessWidget {
                       SizedBox(
                         height: 20,
                       ),
+
                       Text(
-                        'Upcoming Schedules',
+                        'Prescribed Medicines',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18,
+                          color: kTitleTextColor,
+                        ),
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Text(
+                        'Glimepiride-3mg ; AF ; 1-0-1 \n Insulin- U-100 ; BF ; 1-0-1 \n Metformin-250mg ; AF ; 1-0-1 ',
+                        style: TextStyle(
+                          height: 1.6,
+                          color: kTitleTextColor.withOpacity(0.7),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 20,
+                      ),
+
+                      Text(
+                        'Previous Consultations',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 18,
@@ -179,10 +204,10 @@ class DetailScreen2 extends StatelessWidget {
                         height: 20,
                       ),
                       ScheduleCard(
-                        'Consultation',
-                        'Sunday . 9am - 11am',
-                        '12',
-                        'Jan',
+                        'Regular Checkup',
+                        'Saturday . 2pm - 3pm',
+                        '22',
+                        'Jul',
                         kBlueColor,
                       ),
                       SizedBox(
@@ -190,19 +215,19 @@ class DetailScreen2 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Consultation',
-                        'Sunday . 9am - 11am',
-                        '13',
-                        'Jan',
+                        'Friday . 2pm - 3pm',
+                        '11',
+                        'Aug',
                         kYellowColor,
                       ),
                       SizedBox(
                         height: 10,
                       ),
                       ScheduleCard(
-                        'Consultation',
-                        'Sunday . 9am - 11am',
-                        '14',
-                        'Jan',
+                        'Consultation - Diabetes:skin irritation',
+                        'Friday . 2pm - 3pm',
+                        '11',
+                        'Aug',
                         kOrangeColor,
                       ),
                       SizedBox(

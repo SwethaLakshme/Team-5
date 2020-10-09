@@ -143,11 +143,13 @@ class DetailScreen3 extends StatelessWidget {
                           )
                         ],
                       ),
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
                       SizedBox(
                         height: 50,
                       ),
                       Text(
-                        'About Doctor',
+                        'Patient Details ',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 18,
@@ -158,7 +160,7 @@ class DetailScreen3 extends StatelessWidget {
                         height: 10,
                       ),
                       Text(
-                        'Dr. Stella is the top most heart surgeon in Flower\nHospital. She has done over 100 successful sugeries\nwithin past 3 years. She has achieved several\nawards for her wonderful contribution in her own\nfield. She’s available for private consultation for\ngiven schedules.',
+                        'Age: 40 \n Blood Group: AB -ve \n Height/Weight: 175cm/95kg \n Blood Pressure(BP): 123mmHg \n Pulse rate: 81beats/min \n Diagonised with: Obesity',
                         style: TextStyle(
                           height: 1.6,
                           color: kTitleTextColor.withOpacity(0.7),
@@ -167,8 +169,31 @@ class DetailScreen3 extends StatelessWidget {
                       SizedBox(
                         height: 20,
                       ),
+
                       Text(
-                        'Upcoming Schedules',
+                        'Prescribed Medicines',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18,
+                          color: kTitleTextColor,
+                        ),
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Text(
+                        'Desoxyn-250mg ; AF ; 1-0-1 \n Topamax-500mg ; AF ; 0-0-1 \n Orlistat-250mg ; AF ; 1-0-1 \n',
+                        style: TextStyle(
+                          height: 1.6,
+                          color: kTitleTextColor.withOpacity(0.7),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 20,
+                      ),
+
+                      Text(
+                        'Previous Consultations',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 18,
@@ -179,10 +204,10 @@ class DetailScreen3 extends StatelessWidget {
                         height: 20,
                       ),
                       ScheduleCard(
-                        'Consultation',
-                        'Sunday . 9am - 11am',
-                        '12',
-                        'Jan',
+                        'Regular Checkup',
+                        'Saturday . 9am - 11am',
+                        '22',
+                        'Aug',
                         kBlueColor,
                       ),
                       SizedBox(
@@ -190,19 +215,19 @@ class DetailScreen3 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Consultation',
-                        'Sunday . 9am - 11am',
-                        '13',
-                        'Jan',
+                        'Saturday . 9am - 11am',
+                        '2',
+                        'Sept',
                         kYellowColor,
                       ),
                       SizedBox(
                         height: 10,
                       ),
                       ScheduleCard(
-                        'Consultation',
-                        'Sunday . 9am - 11am',
-                        '14',
-                        'Jan',
+                        'Consultation - Nausea and Dizziness',
+                        'Saturday . 9am - 11am',
+                        '2',
+                        'Sept',
                         kOrangeColor,
                       ),
                       SizedBox(

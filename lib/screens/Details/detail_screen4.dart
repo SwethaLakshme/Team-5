@@ -160,7 +160,7 @@ class DetailScreen4 extends StatelessWidget {
                         height: 10,
                       ),
                       Text(
-                        'Age: 15 \n Blood Group: B+ve \n Height/Weight: 140cm/50kg \n Blood Pressure(BP): 88mmHg \n Pulse rate: 71beats/min \n Diagonised with: Malaria',
+                        'Age: 10 \n Blood Group: A1+ve \n Height/Weight: 110cm/35kg \n Blood Pressure(BP): 88mmHg \n Pulse rate: 71beats/min \n Diagonised with: Typhoid(Salmonella typhi)',
                         style: TextStyle(
                           height: 1.6,
                           color: kTitleTextColor.withOpacity(0.7),
@@ -182,7 +182,7 @@ class DetailScreen4 extends StatelessWidget {
                         height: 10,
                       ),
                       Text(
-                        'Chloroquine-250mg ; AF ; 1-0-1 \n Proguanil-50mg ; AF ; 1-0-1 \n Paracetamol-500mg ; AF ; Every 6 hours \n Emeset-4mg ; BF ; 1-0-1',
+                        'Ciprofloxacin-250mg ; AF ; 1-0-1 \n Paracetamol-250mg ; AF ; Every 6 hours \n Azithromycin-500mg ; AF ; 0-0-1 \n Ceftriaxone-1g ; AF ; 0-0-1',
                         style: TextStyle(
                           height: 1.6,
                           color: kTitleTextColor.withOpacity(0.7),
@@ -205,9 +205,9 @@ class DetailScreen4 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Regular Checkup',
-                        'Saturday . 9am - 11am',
-                        '12',
-                        'Sept',
+                        'Sunday . 10am - 12am',
+                        '23',
+                        'Aug',
                         kBlueColor,
                       ),
                       SizedBox(
@@ -215,19 +215,19 @@ class DetailScreen4 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Consultation',
-                        'Sunday . 9am - 11am',
-                        '13',
-                        'Jan',
+                        'Sunday . 10am - 12am',
+                        '3',
+                        'Sept',
                         kYellowColor,
                       ),
                       SizedBox(
                         height: 10,
                       ),
                       ScheduleCard(
-                        'Consultation - Mild Fever',
-                        'Sunday . 9am - 11am',
-                        '14',
-                        'Jan',
+                        'Consultation - Severe Stomach Pain and Mild Fever',
+                        'Sunday . 10am - 12am',
+                        '3',
+                        'Sept',
                         kOrangeColor,
                       ),
                       SizedBox(
