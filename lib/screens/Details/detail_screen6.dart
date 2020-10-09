@@ -205,9 +205,9 @@ class DetailScreen6 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Regular Checkup',
-                        'Saturday . 9am - 11am',
+                        'Wednesday . 9am - 10am',
                         '12',
-                        'Sept',
+                        'Aug',
                         kBlueColor,
                       ),
                       SizedBox(
@@ -215,9 +215,9 @@ class DetailScreen6 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Consultation',
-                        'Saturday . 9am - 11am',
+                        'Monday . 10am - 11am',
                         '13',
-                        'Jan',
+                        'July',
                         kYellowColor,
                       ),
                       SizedBox(
@@ -225,9 +225,9 @@ class DetailScreen6 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Consultation - wheezing and severe headache',
-                        'Sunday . 9am - 11am',
-                        '14',
-                        'Jan',
+                        'Sunday . 2pm - 3pm',
+                        '30',
+                        'May',
                         kOrangeColor,
                       ),
                       SizedBox(

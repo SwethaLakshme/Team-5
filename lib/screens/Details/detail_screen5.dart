@@ -205,9 +205,9 @@ class DetailScreen5 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Regular Checkup',
-                        'Saturday . 11am - 2pm',
-                        '19',
-                        'Sept',
+                        'Thursday . 11am - 12pm',
+                        '1',
+                        'Oct',
                         kBlueColor,
                       ),
                       SizedBox(
@@ -215,9 +215,9 @@ class DetailScreen5 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Regular Checkup',
-                        'Tuesday . 9am - 11am',
-                        '20',
-                        'Oct',
+                        'Monday . 9am - 10am',
+                        '7',
+                        'September',
                         kYellowColor,
                       ),
                       SizedBox(
@@ -225,9 +225,9 @@ class DetailScreen5 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Regular Checkup',
-                        'Wednesday . 9am - 11am',
-                        '18',
-                        'Nov',
+                        'Wednesday . 10am - 11am',
+                        '5',
+                        'August',
                         kOrangeColor,
                       ),
                       SizedBox(

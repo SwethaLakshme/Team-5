@@ -205,9 +205,9 @@ class DetailScreen4 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Regular Checkup',
-                        'Sunday . 10am - 12am',
-                        '23',
-                        'Aug',
+                        'Saturday . 10am - 12am',
+                        '19',
+                        'Sept',
                         kBlueColor,
                       ),
                       SizedBox(
@@ -215,9 +215,9 @@ class DetailScreen4 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Consultation',
-                        'Sunday . 10am - 12am',
-                        '3',
-                        'Sept',
+                        'Wednesday . 3pm - 4pm',
+                        '5',
+                        'Aug',
                         kYellowColor,
                       ),
                       SizedBox(
@@ -225,9 +225,9 @@ class DetailScreen4 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Consultation - Severe Stomach Pain and Mild Fever',
-                        'Sunday . 10am - 12am',
-                        '3',
-                        'Sept',
+                        'Monday . 10am - 12am',
+                        '6',
+                        'July',
                         kOrangeColor,
                       ),
                       SizedBox(

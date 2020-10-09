@@ -205,7 +205,7 @@ class DetailScreen2 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Regular Checkup',
-                        'Saturday . 2pm - 3pm',
+                        'Monday . 2pm - 3pm',
                         '05',
                         'Oct',
                         kBlueColor,
