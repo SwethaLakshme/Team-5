@@ -206,8 +206,8 @@ class DetailScreen2 extends StatelessWidget {
                       ScheduleCard(
                         'Regular Checkup',
                         'Saturday . 2pm - 3pm',
-                        '22',
-                        'Jul',
+                        '05',
+                        'Oct',
                         kBlueColor,
                       ),
                       SizedBox(
@@ -215,9 +215,9 @@ class DetailScreen2 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Consultation',
-                        'Friday . 2pm - 3pm',
-                        '11',
-                        'Aug',
+                        'Friday . 6pm - 7pm',
+                        '25',
+                        'Sept',
                         kYellowColor,
                       ),
                       SizedBox(
@@ -225,7 +225,7 @@ class DetailScreen2 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Consultation - Diabetes:skin irritation',
-                        'Friday . 2pm - 3pm',
+                        'Tuesday . 4pm - 5pm',
                         '11',
                         'Aug',
                         kOrangeColor,

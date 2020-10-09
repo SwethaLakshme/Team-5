@@ -205,9 +205,9 @@ class DetailScreen3 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Regular Checkup',
-                        'Saturday . 9am - 11am',
+                        'Tuesday . 9am - 11am',
                         '22',
-                        'Aug',
+                        'Sept',
                         kBlueColor,
                       ),
                       SizedBox(
@@ -216,8 +216,8 @@ class DetailScreen3 extends StatelessWidget {
                       ScheduleCard(
                         'Consultation',
                         'Saturday . 9am - 11am',
-                        '2',
-                        'Sept',
+                        '29',
+                        'Aug',
                         kYellowColor,
                       ),
                       SizedBox(
@@ -225,9 +225,9 @@ class DetailScreen3 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Consultation - Nausea and Dizziness',
-                        'Saturday . 9am - 11am',
-                        '2',
-                        'Sept',
+                        'Monday . 9am - 11am',
+                        '6',
+                        'Jul',
                         kOrangeColor,
                       ),
                       SizedBox(

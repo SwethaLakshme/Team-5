@@ -4,7 +4,7 @@ import 'package:prescription_app/components/patientlist/patient_list2.dart';
 import 'package:prescription_app/components/patientlist/patient_list3.dart';
 import 'package:prescription_app/components/patientlist/patient_list4.dart';
 import 'package:prescription_app/components/patientlist/patient_list5.dart';
-import 'package:prescription_app/components/patientlist/patient_list 6.dart';
+import 'package:prescription_app/components/patientlist/patient_list6.dart';
 import 'package:prescription_app/components/search_bar.dart';
 import 'package:prescription_app/constant.dart';
 import 'package:flutter/material.dart';
@@ -90,6 +90,9 @@ class Body extends StatelessWidget {
               buildPatientList1(),
               buildPatientList2(),
               buildPatientList3(),
+              buildPatientList4(),
+              buildPatientList5(),
+              buildPatientList6(),
             ],
           ),
         ),
@@ -152,7 +155,7 @@ class Body extends StatelessWidget {
           PatientCard1(
             'Gautham V',
             'Male',
-            'assets/images/doctor1.png',
+            'assets/images/gautham.png',
             kBlueColor,
           ),
           SizedBox(
@@ -173,8 +176,8 @@ class Body extends StatelessWidget {
           PatientCard2(
             'Kanniyappan R',
             'Male - Aged Person',
-            'assets/images/doctor2.png',
-            kYellowColor,
+            'assets/images/kanniyappan.png',
+            kGreenColor,
           ),
           SizedBox(
             height: 20,
@@ -194,7 +197,7 @@ class Body extends StatelessWidget {
           PatientCard3(
             'Subramanium K',
             'Male',
-            'assets/images/doctor3.png',
+            'assets/images/subramanium.png',
             kOrangeColor,
           ),
           SizedBox(
@@ -213,10 +216,10 @@ class Body extends StatelessWidget {
       child: Column(
         children: <Widget>[
           PatientCard4(
-            'Ayesha.G',
+            'Ayesha G',
             'Female',
-            'assets/images/doctor3.png',
-            kOrangeColor,
+            'assets/images/ayesha.png',
+            kTealColor,
           ),
           SizedBox(
             height: 20,
@@ -234,10 +237,10 @@ class Body extends StatelessWidget {
       child: Column(
         children: <Widget>[
           PatientCard5(
-            'Kamatchi.V',
-            'Female',
-            'assets/images/doctor3.png',
-            kOrangeColor,
+            'Kamatchi V',
+            'Female - Aged person',
+            'assets/images/kamatchi.png',
+            kBrownColor,
           ),
           SizedBox(
             height: 20,
@@ -255,10 +258,10 @@ class Body extends StatelessWidget {
       child: Column(
         children: <Widget>[
           PatientCard6(
-            'Manasa .S',
+            'Manasa S',
             'Female',
-            'assets/images/doctor3.png',
-            kOrangeColor,
+            'assets/images/manasa.png',
+            kAmberColor,
           ),
           SizedBox(
             height: 20,

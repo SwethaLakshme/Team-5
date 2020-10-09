@@ -215,9 +215,9 @@ class DetailScreen1 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Consultation',
-                        'Sunday . 9am - 11am',
-                        '13',
-                        'Jan',
+                        'Tuesday . 10am - 11am',
+                        '11',
+                        'Aug',
                         kYellowColor,
                       ),
                       SizedBox(
@@ -225,9 +225,9 @@ class DetailScreen1 extends StatelessWidget {
                       ),
                       ScheduleCard(
                         'Consultation - Mild Fever',
-                        'Sunday . 9am - 11am',
-                        '14',
-                        'Jan',
+                        'Wednesday . 6pm - 7.30pm',
+                        '15',
+                        'Jul',
                         kOrangeColor,
                       ),
                       SizedBox(
