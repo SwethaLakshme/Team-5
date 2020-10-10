@@ -17,9 +17,23 @@ dependencies:
   # flutter_svg: ^0.17.4
   google_fonts: ^1.1.0
   flutter_svg: ^0.18.0
-  speech_to_text: ^2.3.0
+  # speech_to_text: ^2.3.0
   highlight_text: ^0.7.2
   avatar_glow: ^1.2.0
+  flutter_walkthrough: ^0.0.1
+  dots_indicator: ^1.1.0
+  path_provider: ^1.5.1
+  flutter_mailer: ^0.4.2
+  signature: ^2.0.1
+  pdf: ^1.4.0
+  image: ^2.1.4
+  flutter_pdfview: ^1.0.0+10
+  flutter_screenutil: ^0.4.2
+  shared_preferences: ^0.5.6
+  speech_to_text: ^0.7.2
+  image_picker: ^0.6.3+1
+  provider: ^3.1.0+1
+  http: ^0.12.0+2
 
 
 

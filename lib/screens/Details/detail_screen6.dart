@@ -2,7 +2,8 @@ import 'package:prescription_app/components/schedule_card.dart';
 import 'package:prescription_app/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:prescription_app/screens/Voice/voice_screen.dart';
+// import 'package:prescription_app/screens/Voice/voice_screen.dart';
+import 'package:prescription_app/new/doc_sign.dart';
 
 class DetailScreen6 extends StatelessWidget {
   var _name;
@@ -242,7 +243,7 @@ class DetailScreen6 extends StatelessWidget {
                         context,
                         MaterialPageRoute(
                           builder: (context) {
-                          return VoiceScreen();
+                          return DocSign();
                     },
                   ),
                 );
